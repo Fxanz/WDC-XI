@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  list-style: none !important;
+  text-decoration: none !important;
+}
+.container {
+  margin: 100px 20px;
+}
+.logo1 {
+  width: 200px;
+  height: 150px;
+}
+.login {
+  margin: 30px 0;
+}
+.button .btn {
+  background-color: #39c0ed !important;
+}
+.forgot p {
+  margin-top: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+.forgot p a {
+  color: #979696;
+}
+.akun p {
+  margin-top: 50px;
+}
+.akun span {
+  color: #39c0ed;
+}
+.drop {
+  margin: 18px 0;
+}
+
+.href {
+  list-style: none;
+  text-decoration: none;
+}
+.hr-1 {
+  background-color: #dfe6e9;
+  border: 0px;
+  height: 1px;
+}
+.hr-2 {
+  background-color: #dfe6e9;
+  border: 0;
+  height: 1px;
+}
+.nav-link:hover {
+  background-color: #2d3436;
+}
+
+.card-body-icon {
+  position: absolute;
+  z-index: 0;
+  top: 35px;
+  right: 10px;
+  opacity: 0.4;
+  font-size: 90px;
+}
+.display-4 {
+  font-family: sans-serif;
+}
+.dropdown-utama {
+  color: white !important;
+}
+form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+form h3 {
+  text-align: center;
+}
+.button a {
+  color: white;
+}
+.button a:hover {
+  color: white;
+}
