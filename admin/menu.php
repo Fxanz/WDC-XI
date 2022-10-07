@@ -1,3 +1,6 @@
+<?php
+    include 'app-atas.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,7 +19,7 @@
   </head>
   <nav class="navbar navbar-expand-lg bg-dark fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand text-white" style="margin-left:50px" href="#">Data Siswa SMK TI BALI GLOBAL DENPASAR</a>
+        <a class="navbar-brand text-white" style="margin-left:50px" href="#">SELAMAT DATANG <?= $rw['nama']; ?> di dashbord admin</a>
         <div class="pojok-kanan">
           <form class="d-flex" role="search" style="margin-left:500px;">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
@@ -429,3 +432,7 @@
         <script src="js/script.js"></script>
       </body>
 </html>
+
+<?php
+    include 'app-bawah.php';
+?>
